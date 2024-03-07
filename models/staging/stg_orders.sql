@@ -6,11 +6,13 @@ select
     , o.shipmode
     
     -- from raw customers
+    , c.customerid
     , c.customername
     , c.segment
     , c.country
 
     -- from raw products
+    , p.productid
     , p.category
     , p.productname
     , p.subcategory
