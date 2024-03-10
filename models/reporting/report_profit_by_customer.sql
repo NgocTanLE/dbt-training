@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized='table',
+        tags='profit'
+    )
+}}
 select 
     customerid
     , customername
